@@ -1,0 +1,42 @@
+Reading database from /home/s/my_perl_project/cover_db
+
+
+--------- ------ ------ ------ ------ ------ ------
+File        stmt   bran   cond    sub   time  total
+--------- ------ ------ ------ ------ ------ ------
+t/basic.t   62.5    n/a    n/a  100.0  100.0   70.0
+Total       62.5    n/a    n/a  100.0  100.0   70.0
+--------- ------ ------ ------ ------ ------ ------
+
+
+Run:          t/basic.t
+Perl version: 5.34.0
+OS:           linux
+Start:        Sun Jun 29 22:44:41 2025
+Finish:       Sun Jun 29 22:44:41 2025
+
+t/basic.t
+
+line  err   stmt   bran   cond    sub   time   code
+1              1                    1   1287   use Test::More tests => 1;
+               1                       39045   
+               1                           2   
+2              1                    1  31383   use_ok('MyModule');
+               1                         176   
+      ***      0                               
+      ***      0                               
+      ***      0                               
+3                                              
+4                                              # Uncomment to test coverage:
+5                                              # is(MyModule::greet("World"), "Hello, World!", "Greeting works");
+
+
+Covered Subroutines
+-------------------
+
+Subroutine Count Location   
+---------- ----- -----------
+BEGIN          1 t/basic.t:1
+BEGIN          1 t/basic.t:2
+
+
